@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .report-card {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid #004080;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #004080;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .details div {
+            width: 48%;
+            margin: 10px 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #004080;
+            color: #fff;
+        }
+
+        .grading-scale {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        .grading-scale h3 {
+            margin: 0 0 10px;
+            color: #004080;
+        }
+
+        .grading-scale p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-card">
+        <header>
+            <h1>REPORT CARD</h1>
+            <p>COMOBIL LSS</p>
+        </header>
+        <section class="details">
+            <div>
+                <label>Name:</label> <span>________________________</span>
+            </div>
+            <div>
+                <label>Year:</label> <span>________________________</span>
+            </div>
+            <div>
+                <label>Adviser:</label> <span>________________________</span>
+            </div>
+            <div>
+                <label>Grading Period:</label> <span>________________________</span>
+            </div>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>SUBJECT</th>
+                    <th>COEF</th>
+                    <th>MARK</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pure Maths</td>
+                    <td>05</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Futher Maths</td>
+                    <td>05</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Biology</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Food Science</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <section class="grading-scale">
+            <div>
+                <h3>GRADING SCALE:</h3>
+                <p>A+ = 96-100</p>
+                <p>A = 91-95</p>
+                <p>B+ = 86-90</p>
+                <p>B = 81-85</p>
+                <p>C = 76-80</p>
+                <p>D = 75-70</p>
+                <p>FAIL = 69 and below</p>
+            </div>
+            <div>
+                <h3>TOTAL DAYS OF SCHOOL:</h3>
+                <p>Days Attended: __________________</p>
+                <p>Days Absent: __________________</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
